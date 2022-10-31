@@ -24,21 +24,21 @@ BONUS_NAME = so_long_bonus
 
 GREEN := \033[0;92m
 
-SRCS = so_long.c read_map.c print_map.c get_next_line.c \
-			get_next_line_utils.c key_press.c check_exit.c \
-			ft_free.c ft_itoa.c ft_calloc.c ft_bzero.c \
-			ft_memset.c ft_error.c
+SRCS = ./src/so_long.c ./src/read_map.c ./src/print_map.c ./src/get_next_line.c \
+			./src/get_next_line_utils.c ./src/key_press.c ./src/check_exit.c \
+			./src/ft_free.c ./src/ft_itoa.c ./src/ft_calloc.c ./src/ft_bzero.c \
+			./src/ft_memset.c ./src/ft_error.c
 
-BONUS = so_long_bonus.c read_map_bonus.c print_map_bonus.c get_next_line_bonus.c \
-			get_next_line_utils_bonus.c key_press_bonus.c check_exit_bonus.c \
-			ft_free_bonus.c ft_itoa_bonus.c ft_calloc_bonus.c ft_bzero_bonus.c \
-			ft_memset_bonus.c ft_error_bonus.c change_sprite_bonus.c
+BONUS = ./bns/so_long_bonus.c ./bns/read_map_bonus.c ./bns/print_map_bonus.c ./bns/get_next_line_bonus.c \
+			./bns/get_next_line_utils_bonus.c ./bns/key_press_bonus.c ./bns/check_exit_bonus.c \
+			./bns/ft_free_bonus.c ./bns/ft_itoa_bonus.c ./bns/ft_calloc_bonus.c ./bns/ft_bzero_bonus.c \
+			./bns/ft_memset_bonus.c ./bns/ft_error_bonus.c ./bns/change_sprite_bonus.c
 
-INCLUD = so_long.h \
-			mlx.h
+INCLUD = ./inc/so_long.h \
+			./inc/mlx.h
 
-INCLUD_BNS = so_long_bonus.h \
-			mlx.h
+INCLUD_BNS = ./inc/so_long_bonus.h \
+			./inc/mlx.h
 
 CC = gcc
 RM = rm -f
